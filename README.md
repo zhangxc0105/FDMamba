@@ -7,7 +7,7 @@
 ## 🖼️ Method Overview
 
 <div align=center>
-<img src="asset/framework.png" width="700px">
+<img src="asset/framework.png" width="100%">
 </div>
 
 ## 📁Project Structure
