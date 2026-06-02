@@ -1,0 +1,48 @@
+name: Net
+algorithm: fdmamba
+type: MGCT
+nEpochs: 500
+gpu_mode: True
+save_best: True
+gpus: [4]
+threads: 4 #num_works
+
+seed: 123 #123
+checkpoint: checkpoint
+log_dir: log/
+
+source_ms: ms
+source_pan: pan
+
+pretrain:
+  pretrained: False
+  pre_sr: ~
+  pre_folder: ~
+
+data:
+  base_path: /data/zhangxiaochen/Pansharpening/FDMamba/dataset
+  data_name: wv3
+  upsacle: 4
+  batch_size: 32
+  patch_size: 32
+  data_augmentation: False
+  rgb_range: 255
+  normalize: False
+
+schedule:
+  lr: 5e-4
+  periods: [2200, 5000]
+  restart_weights: [1, 1]
+  eta_mins: [0.0003, 0.000001]
+  decay: '100'
+  gamma: 0.9
+  optimizer: ADAM
+  momentum: 0.9
+  beta1: 0.9 #ADAM beta1
+  beta2: 0.999 #ADAM beta
+  epsilon: 1e-8
+  alpha: 0.9
+  weight_dency: 0
+  gclip: 4
+  loss: L1
+  use_YCbCr: False
