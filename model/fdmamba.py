@@ -10,7 +10,6 @@ from typing import Callable
 from einops import rearrange, repeat
 from timm.models.layers import DropPath, trunc_normal_
 from mamba_ssm.ops.selective_scan_interface import selective_scan_fn
-from Visualizer_main.visualizer import get_local
 
 def dwt_init(x):
     x01 = x[:, :, 0::2, :] / 2
