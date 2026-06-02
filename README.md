@@ -73,7 +73,6 @@ python main.py
 
 ### Testing
 ```bash
-# Edit checkpoint and data paths in get_matlab.py, then run:
 python get_matlab.py
 ```
 
