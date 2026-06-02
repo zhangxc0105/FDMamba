@@ -34,7 +34,6 @@ FDMamba/
 └── dataset/            # Training/test datasets
 ```
 ## 📦 Data Preparations
-### Datasets Supported
 Datasets are from [PanCollection](https://github.com/liangjiandeng/PanCollection).
 
 ```
@@ -42,9 +41,6 @@ dataset/
 ├── train_gf2.h5
 ├── train_qb.h5
 ├── train_wv3.h5
-├── valid_gf2.h5
-├── valid_qb.h5
-├── valid_wv3.h5
 ├── test_gf2_multiExm1.h5
 ├── test_gf2_OrigScale_multiExm1.h5
 ├── test_qb_multiExm1.h5
@@ -92,17 +88,17 @@ The `vis/` directory provides visualization tools:
 
 ## 📥 Pre-trained Checkpoints
 
-Trained models: [Google Drive](https://drive.google.com/drive/folders/1UtoJadPZvXt91U6U91y9Trjl7xaJk8Mz?usp=drive_link)
+Pre-trained model weights are available for download: [Google Drive](https://drive.google.com/drive/folders/1UtoJadPZvXt91U6U91y9Trjl7xaJk8Mz?usp=drive_link)
 
 ## 🏆 Benchmark Results
 
-Quantitative results: [Google Drive](https://drive.google.com/drive/folders/1hrRCUk2TOgn8JsqZNZ0WRb936u_1QTSO?usp=sharing)
+Comprehensive benchmark results on standard datasets: [Google Drive](https://drive.google.com/drive/folders/1hrRCUk2TOgn8JsqZNZ0WRb936u_1QTSO?usp=sharing)
 
 Comparison methods: MTF_GLP_FS, BDSD_PC, TV, PNN, PanNet, DiCNN, MSDCNN, FusionNet, U2Net, CANNet, PanMamba, Ramsf, Premix, ADWM
 
 ## 🥰Citation
 
-**Please kindly cite the papers if this code is useful and helpful for your research.**
+**If you find our repository useful, please consider giving it a star ⭐ and citing our research papers in your work.**
 
 ```
 @article{zhang2026frequency,
