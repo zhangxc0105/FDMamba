@@ -1,4 +1,4 @@
-# 📡 Frequency-Driven State Space Model for Remote Sensing Pansharpening
+# [TGRS 2026] Frequency-Driven State Space Model for Remote Sensing Pansharpening
 
 🔥 PyTorch codes for "[Frequency-Driven State Space Model for Remote Sensing Pansharpening]()", **IEEE Transactions on Geoscience and Remote Sensing**, 2026.
 
