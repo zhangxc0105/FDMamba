@@ -10,7 +10,7 @@
 <img src="asset/framework.png" width="100%">
 </div>
 
-## 📁Project Structure
+## 📁 Project Structure
 
 ```
 FDMamba/
@@ -95,7 +95,7 @@ Comprehensive benchmark results on standard datasets: [Google Drive](https://dri
 
 Comparison methods: MTF_GLP_FS, BDSD_PC, TV, PNN, PanNet, DiCNN, MSDCNN, FusionNet, U2Net, CANNet, PanMamba, Ramsf, Premix, ADWM
 
-## 🥰Citation
+## 🥰 Citation
 
 **If you find our repository useful, please consider giving it a star ⭐ and citing our research papers in your work.**
 
