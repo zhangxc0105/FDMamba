@@ -1,6 +1,6 @@
-# [TGRS 2026] Frequency-Driven State Space Model for Remote Sensing Pansharpening
+# [TGRS 2026] Frequency-Driven State-Space Model for Remote Sensing Pansharpening
 
-🔥 PyTorch codes for "[Frequency-Driven State Space Model for Remote Sensing Pansharpening]()", **IEEE Transactions on Geoscience and Remote Sensing**, 2026.
+🔥 PyTorch codes for "[Frequency-Driven State-Space Model for Remote Sensing Pansharpening](https://ieeexplore.ieee.org/document/11547216)", **IEEE Transactions on Geoscience and Remote Sensing**, 2026.
 
 - Authors: Xiaochen Zhang, Jiangyun Li, Hao Wang, and Peixian Zhuang
 
@@ -101,7 +101,7 @@ Comparison methods: MTF_GLP_FS, BDSD_PC, TV, PNN, PanNet, DiCNN, MSDCNN, FusionN
 
 ```
 @article{zhang2026frequency,
-  title={Frequency-Driven State Space Model for Remote Sensing Pansharpening},
+  title={Frequency-Driven State-Space Model for Remote Sensing Pansharpening},
   author={Zhang, Xiaochen and Li, Jiangyun and Wang, Hao and Zhuang, Peixian},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   year={2026}
